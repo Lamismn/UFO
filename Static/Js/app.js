@@ -1,5 +1,6 @@
 // import the data from data.js
 const tableData = data;
+console.log(tableData)
 
 // Reference the HTML table using d3 and add data to the  table cells
 var tbody = d3.select("tbody");
